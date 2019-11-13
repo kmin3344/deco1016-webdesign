@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style: lighter;
+}
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    background:#ffffff;
+    margin: 20px;
+}
+
+header::after {
+    content:'';
+    display: table;
+    clear: both; 
+}
+
+.logo{
+    position: absolute;
+    padding-top: 30px;
+    float: left;
+    margin-left: -5px;
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+	text-align: right;
+	color: #5f00d1;
+	margin-right: 20px;
+	font-weight: normal;
+	transition: all 0.2s linear;
+}
+
+nav a {
+    color: #5f00d1;
+    text-decoration: none;
+}
+
+ul li:hover a {
+	color: #b2b1b1;
+}
+
+.search {
+	width: 60%;
+	position: relative;
+	display:flex;
+}
+
+
+.searchButton {
+    width: 50px;
+    height: 36px;
+    border: 1px solid #5f00d1;
+    background: #5f00d1;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchButton:hover {
+    background: #b2b1b1;
+    border: 1px solid #b2b1b1;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: transparent;
+    color: #b2b1b1;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px 30px;
+}
+
+.icon{
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 15px);
+    color: #5f00d1;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    padding: px;
+    text-align: center;
+    font-size: 30px;
+    color: #5f00d1;
+}
+
+h4{
+    font-size: 19px;
+    font-weight: lighter;
+    padding: 0 0 10px;
+    text-align: center;
+}
+
+.loginbox{
+    margin: 0;
+    padding-top: 2;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom:20px
+}
+
+::placeholder {
+    color: #b2b1b1;
+  }
+  
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid#b2b1b1;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #b2b1b1;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #5f00d1;
+    font-size: 16px;
+    border-radius: 10px;
+    color: white;
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#8955c9;
+    color: 000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:#b2b1b1;
+}
+
+.loginbox a:hover
+{
+    color: #5f00d1;
+}
+
+/* The container */
+.container {
+    margin-left: 60px;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 25px;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #5f00d1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.createacc-btn {
+    border: none;
+    text-align: center;
+    outline: none;
+    height: 50px;
+    width: 200px;
+    background: #b2b1b1;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 30px;
+}
+
+.createacc-btn:hover {
+    background: #ccc;
+}
+
+.difficulty {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+a.clickhere {
+    font-size: 14px;
+    color: #5f00d1;
+}
+
+a.clickhere:hover {
+    font-size: 14px;
+    color: #8955c9;
+    text-decoration: underline;
+}
