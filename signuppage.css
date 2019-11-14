@@ -209,18 +209,18 @@ small:hover{
   div.app-text {
     width: 100%;
     }
-  div.picture1 img {
+  div.picture1 {
     display: none;
     }
-  div.picture2 img {
+  div.picture2 {
     display: none;
-   }
-  div.picture3 img {
+    }
+  div.picture3 {
     display: none;
-   }
-  div.logo img {
+    }
+  div.logo {
     width: 100px;
     margin-top: -7px;
     margin-right: 48px;
-}
+    }
 }
