@@ -204,3 +204,19 @@ small:hover{
 .social-icons ul li a:hover{
     border: 1px solid #b2b1b1;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="banner"] {
+    width: 100%;
+    }
+  div.picture1 {
+    display: none;
+    }
+  div.picture2 {
+    display: none;
+   }
+  div.picture3 {
+    display: none;
+   }
+}
