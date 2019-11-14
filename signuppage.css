@@ -210,13 +210,13 @@ small:hover{
   .banner {
     width: 100%;
     }
-  .picture1 {
+  .picture1 img {
     display: none;
     }
-  .picture2 {
+  .picture2 img {
     display: none;
    }
-  .picture3 {
+  .picture3 img {
     display: none;
    }
 }
