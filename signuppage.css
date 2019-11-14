@@ -95,7 +95,7 @@ menu{
 
 .picture1 img{
     width: 30%;
-    margin-top: -350px;
+    margin-top: 80px;
     padding-left: 50px;
     border-radius: 50%;
     position: absolute;
@@ -164,7 +164,7 @@ small:hover{
 .social-icons {
     right: 0px;
     bottom: 35px;
-    margin-right: 0px;
+    margin-right: 150px;
     position: absolute;
 }
 
