@@ -207,20 +207,26 @@ small:hover{
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   div.app-text {
-    width: 100%;
+      width: 100%;
     }
   div.picture1 {
-    display: none;
+      display: none;
     }
   div.picture2 {
-    display: none;
+      display: none;
     }
   div.picture3 {
-    display: none;
+      display: none;
     }
   div.logo {
-    width: 100px;
-    margin-top: -7px;
-    margin-right: 48px;
+      width: 100px;
+      margin-top: -7px;
+      margin-right: 48px;
+    }
+  div.social-icons {
+      margin-right: -100px;
+    }
+  div.menu {
+      font-size: 20px;
     }
 }
