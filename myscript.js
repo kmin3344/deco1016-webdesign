@@ -5,10 +5,9 @@ function validation(){
     var password = document.getElementById("password").value;
     var confpassword = document.getElementById("confpassword").value;
     var error_message = document.getElementById("error_message");
-    var 
     var text;
 
-    error_message.style.padding = "10px";
+    error_message.style.padding = "15px";
 
     if(firstname.length <2){
         text = "Please enter a valid name.";

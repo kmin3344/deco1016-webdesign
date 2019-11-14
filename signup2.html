@@ -1,52 +1,57 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head> 
+    <!--setting up-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge"></meta>
     <title>Step 2</title>
-    <link rel = "stylesheet" type="text/css" href="login1.css" />
+    <link rel = "stylesheet" type="text/css" href="form.css" />
     <script src="https://kit.fontawesome.com/5593eebba8.js" crossorigin="anonymous"></script>
     <link rel = "stylesheet" href ="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
 
 <header>
-    <div class="nav-container">
-        <img src = "logo.png" alt="logo" class="logo"  width="200" height="55">
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#about">About</a></li>
-                    <button type="submit" class="searchButton"> <i class="fa fa-search"></i> </button></li>
-                </li>
-            </ul>
-        </nav>
-    </div>
+    <!--navigation bar-->
+<div class="nav-container">
+    <img src = "logo.png" alt="logo" class="logo"  width="200" height="55">
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+             <li><a href="#Services">Services</a></li>
+            <li><a href="#about">About</a></li>
+                <button type="submit" class="searchButton"> <i class="fa fa-search"></i> </button></li>
+            </li>
+        </ul>
+    </nav>
+</div>
 </header>
 
 <body>
-    <form action="/" method="GET">
-        <div class="container01">
-            <ul class="progressbar">
-                <li></li>
-                <li class="active"></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="loginbox">
-            <h4 class="verify">Verify your phone number!</h4>
-            <form>
-                <form action="/action_page.php">
-                    <input type="tel" class="phone" placeholder="Phone Number" name="phone" pattern="[0-9]{10}">
-                <p class="verification">We will send you a verification code to verify that you're the owner of this phone.</p><br>
-                <input type="submit" formaction="http://127.0.0.1:5500/signup3.html" class="verification-btn" name="phonenumber" value="Text me a verification code">
-                <p class="or">Or</p><br>
-                <input type="submit" class="skip-btn" name="" value="Skip">
-            </form>
-        </div>
-    </form>
+    <!--progress bar-->
+    <div class="container01">
+        <ul class="progressbar">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <!--verifcation box-->
+    <div class="loginbox"> 
+        <h4 class="verify2">Verify your phone number!</h4>
+        <div id="error_message"></div> 
+
+         <form id="myform" onsubmit="return validation2()">
+            <div  class="input_field">
+                <input type="text" class="phone" placeholder="Phone Number" id="phone">
+            </div>
+            <p class="verification">We will send you a verification code to verify that you're the owner of this phone.</p><br>
+            <div class="continue-btn">
+                <input type="submit" formaction="http://127.0.0.1:5500/signup3.html" value="Send me a verification code">
+            </div>
+            <p class="or">Or</p><br>
+            <input type="submit" formaction="http://127.0.0.1:5500/signup4.html" class="skip-btn" value="Skip">
+        </form>
+    </div>
 </body>
 </head>
 </html>

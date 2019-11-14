@@ -280,7 +280,7 @@ a.clickhere:hover {
     font-size: 12px;
     font-weight: lighter;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .date{
@@ -337,6 +337,17 @@ input.first, input.last, input.username, input.password1, input.password2 {
 .verification, .or {
     font-weight: lighter;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.verify {
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.verify2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 input.verification-btn {
@@ -420,7 +431,7 @@ input.skip-btn:hover {
 .loginbox .continue-btn input[type="submit"] {
     background: #5f00d1;
     border: 0;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 10px;
     width: 100%;
     color: #fff;
@@ -443,5 +454,5 @@ input.skip-btn:hover {
 }
 
 .input_field{
-    margin-top: -5px;
+    margin-top: 0px;
 }

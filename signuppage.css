@@ -93,12 +93,6 @@ menu{
     color: #b2b1b1;
 }
 
-.picture1 {
-    width: 300px;
-    float: right;
-    margin: auto;
-}
-
 .picture1 img{
     width: 30%;
     margin-top: -350px;
@@ -106,13 +100,6 @@ menu{
     border-radius: 50%;
     position: absolute;
     right: 0px;
-    border: 1px solid #5f00d1;
-}
-
-.picture2 {
-    width: 150px;
-    float: right;
-    margin: auto;
 }
 
 .picture2 img{
@@ -122,14 +109,7 @@ menu{
     right: 30px;
     padding-left: 70px;
     border-radius: 50%;
-    border: 1px solid #b2b1b1;
     
-}
-
-.picture3 {
-    width: 250px;
-    float: right;
-    margin: auto;
 }
 
 .picture3 img{
@@ -139,7 +119,6 @@ menu{
     padding-left: 50px;
     right: 200;
     border-radius: 50%;
-    border: 1px solid #5f00d1;
 
 }
 
@@ -180,10 +159,12 @@ small:hover{
     color: #b2b1b1;
 }
 
+/*social-media icons*/
+
 .social-icons {
-    right: 5px;
+    right: 0px;
     bottom: 35px;
-    margin-right: -50px;
+    margin-right: 0px;
     position: absolute;
 }
 
@@ -203,4 +184,30 @@ small:hover{
 
 .social-icons ul li a:hover{
     border: 1px solid #b2b1b1;
+}
+
+ /* for mobile phones*/
+@media only screen and (max-width: 500px){
+
+    .picture1 img{
+        display: none;
+    }
+
+    .picture3 img{
+        display: none;
+    }
+
+    .picture2 img{
+        display: none;
+    }
+
+    .logo {
+        width: 100px;
+        margin-top: -7px;
+        margin-right: -100px;
+    }
+
+    .menu {
+        font-size:18px;
+    }
 }
