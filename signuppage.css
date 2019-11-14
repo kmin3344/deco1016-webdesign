@@ -183,7 +183,6 @@ small:hover{
 .social-icons {
     right: 5px;
     bottom: 35px;
-    margin-right: -50px;
     position: absolute;
 }
 
@@ -207,19 +206,19 @@ small:hover{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .app-text {
+  div.app-text {
     width: 100%;
     }
-  .picture1 img {
+  div.picture1 img {
     display: none;
     }
-  .picture2 img {
+  div.picture2 img {
     display: none;
    }
-  .picture3 img {
+  div.picture3 img {
     display: none;
    }
-  .logo img {
+  div.logo img {
     width: 100px;
     margin-top: -7px;
     margin-right: 48px;
