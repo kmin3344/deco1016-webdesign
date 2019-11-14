@@ -207,16 +207,16 @@ small:hover{
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="banner"] {
+  .banner {
     width: 100%;
     }
-  div.picture1 {
+  .picture1 {
     display: none;
     }
-  div.picture2 {
+  .picture2 {
     display: none;
    }
-  div.picture3 {
+  .picture3 {
     display: none;
    }
 }
